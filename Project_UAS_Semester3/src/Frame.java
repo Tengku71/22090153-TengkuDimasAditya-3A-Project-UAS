@@ -1,7 +1,5 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
@@ -22,8 +20,6 @@ public class Frame extends javax.swing.JFrame {
     Model model = new Model();
     boolean isTimerOn;
     String ip = "192.168.4.1";
-    Koneksi koneksi;
-    boolean ledon;
     cekKoneksi cek;
     /**
      * Creates new form NewJFrame1
